@@ -1,0 +1,26 @@
+{
+  "name": "pi4server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "bun index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/webtorrent": "^3.0.0"
+  },
+  "dependencies": {
+    "@clack/prompts": "^1.8.1",
+    "webtorrent": "^2.8.5"
+  },
+  "overrides": {},
+  "resolutions": {},
+  "pnpm": {
+    "overrides": {}
+  },
+  "private": true
+}
